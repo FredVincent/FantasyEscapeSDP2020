@@ -10,28 +10,29 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public int score;
-    public int highScore;
+    public float score;
+    public float highScore;
     public TextMeshProUGUI UIScore;
     public TextMeshProUGUI UIHighScore;
-
-    void Awake()
-    {
-        // Load High Score
-        highScore = PlayerPrefs.GetInt("highScore");
-    }
-    void Update()
-    {
+    
+    //All Those Code is included in 'CountDown' Script 
+    //void Awake()
+    //{
+    //    // Load High Score
+    //    highScore = PlayerPrefs.GetFloat("highScore");
+    //}
+    //void Update()
+    //{
         //Score UI
-        UIScore.text = "Score: " + score.ToString();
+        //UIScore.text = "Score: " + score.ToString();
         //High Score UI
-        UIHighScore.text = "High Score: " + highScore.ToString();
+        //UIHighScore.text = "High Score: " + highScore.ToString();
 
         //High Score Save to temporary database in Unity.
-        if (score > highScore)
-        {
-            highScore = score;
-            PlayerPrefs.SetInt("highScore", highScore);
-        }
-    }
+        //if (score > highScore)
+        //{
+        //    highScore = score;
+        //    PlayerPrefs.SetFloat("highScore", highScore);
+        //}
+    //}
 }
