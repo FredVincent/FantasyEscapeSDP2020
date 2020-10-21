@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: a319add261e4cc84ea3dc21bee643c7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7362891568440622144
+    second: bigCloud_0
+  - first:
+      213: -8672327574554013455
+    second: bigCloud_1
+  - first:
+      213: 1726911525814087506
+    second: bigCloud_2
+  - first:
+      213: 8233614730346725128
+    second: bigCloud_3
+  - first:
+      213: 5615808122289831772
+    second: bigCloud_4
+  - first:
+      213: 8041219201608719954
+    second: bigCloud_5
+  - first:
+      213: -6860719876911216907
+    second: bigCloud_6
+  - first:
+      213: -3194540243916101012
+    second: bigCloud_7
+  - first:
+      213: -1437357565551690387
+    second: bigCloud_8
+  - first:
+      213: -1173775005987508802
+    second: bigCloud_9
+  - first:
+      213: 6258273970053436056
+    second: bigCloud_10
+  - first:
+      213: -721488980093656549
+    second: bigCloud_11
+  - first:
+      213: 1032499888257247530
+    second: bigCloud_12
+  - first:
+      213: -8919973595514876764
+    second: bigCloud_13
+  - first:
+      213: 5148794607071267480
+    second: bigCloud_14
+  - first:
+      213: -8394892748590429019
+    second: bigCloud_15
+  - first:
+      213: -5907837773648839003
+    second: bigCloud_16
+  - first:
+      213: 6124332136881109261
+    second: bigCloud_17
+  - first:
+      213: -6243944650187895045
+    second: bigCloud_18
+  - first:
+      213: -1551477976025138322
+    second: bigCloud_19
+  - first:
+      213: -6558679903150289518
+    second: bigCloud_20
+  - first:
+      213: -2400097667964141952
+    second: bigCloud_21
+  - first:
+      213: 8105385676620172576
+    second: bigCloud_22
+  - first:
+      213: 4584422283248591358
+    second: bigCloud_23
+  - first:
+      213: 4276434197048781077
+    second: bigCloud_24
+  - first:
+      213: 9200996815497099413
+    second: bigCloud_25
+  - first:
+      213: -1108149341639776019
+    second: bigCloud_26
+  - first:
+      213: -388898317344379714
+    second: bigCloud_27
+  - first:
+      213: -2599434731694799548
+    second: bigCloud_28
+  - first:
+      213: -1350235875776778076
+    second: bigCloud_29
+  - first:
+      213: 7908086330359699346
+    second: bigCloud_30
+  - first:
+      213: 4071191227945059431
+    second: bigCloud_31
+  - first:
+      213: -1716591694433729172
+    second: bigCloud_32
+  - first:
+      213: -8762867653033777164
+    second: bigCloud_33
+  - first:
+      213: -1336887217481933575
+    second: bigCloud_34
+  - first:
+      213: 8807666164939708960
+    second: bigCloud_35
+  - first:
+      213: 5306972599394774594
+    second: bigCloud_36
+  - first:
+      213: 2469832285257555874
+    second: bigCloud_37
+  - first:
+      213: 7003980317249059897
+    second: bigCloud_38
+  - first:
+      213: -1370431475106983091
+    second: bigCloud_39
+  - first:
+      213: -2554230516433669291
+    second: bigCloud_40
+  - first:
+      213: 484222638915981691
+    second: bigCloud_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.497613, y: 0.21218206}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 503}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bigCloud_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 90
+        width: 733
+        height: 221
+      alignment: 9
+      pivot: {x: 0.49481606, y: 0.4452284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6ce312f93d9c0a0800000000000000
+      internalID: -6860719876911216907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
