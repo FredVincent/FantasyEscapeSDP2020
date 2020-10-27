@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameControlScript : MonoBehaviour
 {
-    public GameObject heart1, heart2, heart3, gameOver;
+    public GameObject heart1, heart2, heart3, gameOver, quitButton;
     public static int health;
 
     // Start is called before the first frame update
@@ -15,6 +15,7 @@ public class GameControlScript : MonoBehaviour
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);
         gameOver.gameObject.SetActive(false);
+        quitButton.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -50,6 +51,7 @@ public class GameControlScript : MonoBehaviour
                 heart2.gameObject.SetActive(false);
                 heart3.gameObject.SetActive(false);
                 gameOver.gameObject.SetActive(true);
+                quitButton.gameObject.SetActive(true);
                 Time.timeScale = 0;
                 break;
         }
