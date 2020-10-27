@@ -5,6 +5,6 @@ public class LoadLevelOne : MonoBehaviour
 {
    public void SceneSwitcherLevel01 ()
     {
-        SceneManager.LoadScene("map1");
+        SceneManager.LoadScene("Level-01");
     }
 }

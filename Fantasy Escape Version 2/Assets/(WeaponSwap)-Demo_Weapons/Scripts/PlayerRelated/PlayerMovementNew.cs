@@ -24,8 +24,6 @@ public class PlayerMovementNew : MonoBehaviour
         normalGravity = rb.gravityScale; // set the gravity to normal
         
     }
-
-
     // Update is called once per frame
     void Update()
     {
@@ -49,21 +47,10 @@ public class PlayerMovementNew : MonoBehaviour
             {
                 StopCoroutine(dashCoroutine);
             }
-            dashCoroutine = Dash(.1f, 2);
+            dashCoroutine = Dash(.1f, 2); // the format is dash time and dash cooldown.
             StartCoroutine(dashCoroutine);
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.tag == "coin")
-        {
-            //CurrencyGM.CurrencyAdd();
-            //Instantiate(CoinParticle, other.transform.position, Quaternion.identity);
-            //Destroy(other.gameObject);
-        }
-    }
-
     public void OnLanding ()
     {
         animator.SetBool("IsJumping", false);
@@ -78,8 +65,7 @@ public class PlayerMovementNew : MonoBehaviour
             rb.AddForce(new Vector2(direction * 1,0), ForceMode2D.Impulse);
         }
     }
-
-    IEnumerator Dash (float dashDuration, float dashCooldown)
+    IEnumerator Dash (float dashDuration, float dashCooldown) // This Enumerator is the dash ability the player will have.
     {
         Vector2 orignalVelocity = rb.velocity;
         isDashing = true;

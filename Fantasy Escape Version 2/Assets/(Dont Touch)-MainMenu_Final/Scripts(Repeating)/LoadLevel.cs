@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelLevel : MonoBehaviour
+public class LoadLevel : MonoBehaviour
 {
     [SerializeField] private string newLevel;
-        public void LoadLevel()
+        public void Load()
     {
         SceneManager.LoadScene(newLevel);
     }
